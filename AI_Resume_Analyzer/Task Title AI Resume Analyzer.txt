@@ -1,0 +1,39 @@
+Task Title: AI Resume Analyzer
+
+Objective:
+Design and develop an AI-powered Resume Analyzer capable of analyzing 
+resumes, extracting relevant information, comparing them with a given 
+Job Description (JD), and providing intelligent insights.
+
+Requirements:
+1. Resume Analysis System
+   - Upload and process resumes in PDF format
+   - Extract text from uploaded resumes
+   - Accept a Job Description (JD) as input
+   - Analyze and compare the resume with the Job Description
+   - Generate a Resume Match Score
+   - Provide AI-powered suggestions for resume improvement
+
+2. Core Features
+   - Resume upload functionality (PDF)
+   - Automatic text extraction from resumes
+   - Job Description input (text area or file)
+   - Skills extraction from both resume and Job Description
+   - Skills matching and missing skills identification
+   - Resume Match Score (percentage or rating)
+   - AI-generated suggestions to improve the resume
+   - Display extracted information in a clean and user-friendly interface
+   - Proper validation and error handling
+
+3. AI/NLP Implementation
+   - Resume text preprocessing
+   - Named Entity Recognition (NER)
+   - Keyword extraction
+   - Skills extraction
+   - Semantic similarity between Resume and Job Description
+   - AI-powered recommendation generation
+
+4. Technologies & Libraries
+   - Python, Streamlit or Flask, spaCy, PyMuPDF or pdfplumber
+   - Pandas, Scikit-learn (Optional), Sentence Transformers (Optional)
+   - OpenAI API (Optional), Gemini API (Optional)
