@@ -1,0 +1,24 @@
+# Virtual Environment
+venv/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+
+# Environment Variables
+.env
+
+# Streamlit
+.streamlit/
+
+# FAISS Index (if generated locally)
+*.faiss
+*.pkl
+
+# Temporary Files
+temp/
+*.tmp
+
+# OS Files
+.DS_Store
+Thumbs.db
